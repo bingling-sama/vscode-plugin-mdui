@@ -1,0 +1,305 @@
+{
+  // Color & Theme 颜色与主题
+  "mdui-theme-primary": {
+    "prefix": [
+      "mdui-primary",
+      "primary"
+    ],
+    "body": "mdui-theme-primary-${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,grey,blue-grey|}",
+    "description": "设置主题主色"
+  },
+  "mdui-theme-accent": {
+    "prefix": [
+      "mdui-accent",
+      "accent"
+    ],
+    "body": "mdui-theme-accent-${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,oragne,deep-orage|}",
+    "description": "设置主题强调色"
+  },
+  "mdui-theme-dark": {
+    "prefix": [
+      "mdui-dark",
+      "dark"
+    ],
+    "body": "mdui-theme-layout-dark",
+    "description": "设置为深色主题"
+  },
+  "mdui-color": {
+    "prefix": [
+      "mdui-color",
+      "color"
+    ],
+    "body": "mdui-color-${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,grey,blue-grey|}${2:-accent}${3|-50,-100,-200,-300,-400,-500,-600,-700,-800,-900,-a100,-a200,-a400,-a700|}",
+    "description": "设置背景色"
+  },
+  "mdui-color-theme": {
+    "prefix": [
+      "mdui-color",
+      "color"
+    ],
+    "body": "mdui-color-theme${1|-accent,-50,-100,-200,-300,-400,-500,-600,-700,-800,-900,-a100,-a200,-a400,-a700|}",
+    "description": "根据主题设置背景色"
+  },
+  "mdui-color-preset": {
+    "prefix": [
+      "mdui-color",
+      "color"
+    ],
+    "body": "mdui-color-${1|black,white,transparent|}",
+    "description": "设置黑/白/透明背景色"
+  },
+  "mdui-text-color": {
+    "prefix": [
+      "mdui-text",
+      "text-color"
+    ],
+    "body": "mdui-text-color-${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,grey,blue-grey|}${2:-accent}${3|-50,-100,-200,-300,-400,-500,-600,-700,-800,-900,-a100,-a200,-a400,-a700|}",
+    "description": "设置文本色"
+  },
+  "mdui-text-color-theme": {
+    "prefix": [
+      "mdui-text",
+      "text-color"
+    ],
+    "body": "mdui-text-color-theme${1|-accent,-50,-100,-200,-300,-400,-500,-600,-700,-800,-900,-a100,-a200,-a400,-a700|}",
+    "description": "根据主题设置文本色"
+  },
+  "mdui-text-color-preset": {
+    "prefix": [
+      "mdui-text",
+      "text-color"
+    ],
+    "body": "mdui-text-color-${1|black,white|}${2|-text,-secondary,-disabled,-divider,-icon,-icon-disabled|}",
+    "description": "设置深/浅文本色"
+  },
+  "mdui-text-color-auto": {
+    "prefix": [
+      "mdui-text",
+      "text-color"
+    ],
+    "body": "mdui-text-color-theme-${1|text,secondary,disabled,divider,icon,icon-disabled|}",
+    "description": "设置随主题变化的深/浅色文本色"
+  },
+  // Grid 网格布局
+  "mdui-container": {
+    "prefix": [
+      "mdui-container",
+      "container"
+    ],
+    "body": "mdui-container${1:-fluid}",
+    "description": "网格布局容器（-fluid 全宽）"
+  },
+  "mdui-row": {
+    "prefix": [
+      "mdui-row",
+      "row"
+    ],
+    "body": "mdui-row${1:-gapless}",
+    "description": "网格行（-gapless 消除列间距）"
+  },
+  "mdui-col": {
+    "prefix": [
+      "mdui-col",
+      "col"
+    ],
+    "body": "mdui-col-${1|xs,sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}",
+    "description": "响应式网格列"
+  },
+  "mdui-col-offset": {
+    "prefix": [
+      "mdui-col-offset",
+      "col-offset",
+      "offset"
+    ],
+    "body": "mdui-col-offset-${1|xs,sm,md,lg,xl|}-${2|1,2,3,4,5,6,7,8,9,10,11,12|}",
+    "description": "列偏移"
+  },
+  // Typo 排版
+  "mdui-typo": {
+    "prefix": [
+      "mdui-typo",
+      "typo"
+    ],
+    "body": "mdui-typo",
+    "description": "MDUI 排版"
+  },
+  "mdui-typo-display": {
+    "prefix": [
+      "mdui-display",
+      "display"
+    ],
+    "body": "mdui-typo-display-${1|1,2,3,4|}${2:-opacity}",
+    "description": "字体 Display 样式"
+  },
+  "mdui-typo-headline": {
+    "prefix": [
+      "mdui-headline",
+      "headline"
+    ],
+    "body": "mdui-typo-headline${1:-opacity}",
+    "description": "字体 Headline 样式"
+  },
+  "mdui-typo-title": {
+    "prefix": [
+      "mdui-title",
+      "title"
+    ],
+    "body": "mdui-typo-title${1:-opacity}",
+    "description": "字体 Title 样式"
+  },
+  "mdui-typo-subheading": {
+    "prefix": [
+      "mdui-subheading",
+      "subheading"
+    ],
+    "body": "mdui-typo-subheading${1:-opacity}",
+    "description": "字体 Subheading 样式"
+  },
+  "mdui-typo-body": {
+    "prefix": [
+      "mdui-body",
+      "budy"
+    ],
+    "body": "mdui-typo-body${1|1,2|}${2:-opacity}",
+    "description": "字体 Body 样式"
+  },
+  "mdui-typo-caption": {
+    "prefix": [
+      "mdui-caption",
+      "caption"
+    ],
+    "body": "mdui-typo-caption${1:-opacity}",
+    "description": "字体 Caption 样式"
+  },
+  "mdui-typo-mark": {
+    "prefix": "mark",
+    "body": "<mark>$1</mark>",
+    "description": "高亮文本"
+  },
+  // Icon 图标
+  "mdui-icon": {
+    "prefix": [
+      "mdui-icon",
+      "icon"
+    ],
+    "body": "mdui-icon${1|-left,-right|}",
+    "description": "MDUI Icons"
+  },
+  "material-icon": {
+    "prefix": "material-icons",
+    "body": "material-icons",
+    "description": "Material Icons"
+  },
+  // Media 媒体
+  "mdui-img": {
+    "prefix": [
+      "mdui-img",
+      "img"
+    ],
+    "body": "mdui-img-${1|fluid,rounded,circle|}",
+    "description": "图片样式"
+  },
+  "mdui-video": {
+    "prefix": [
+      "mdui-video",
+      "video"
+    ],
+    "body": "mdui-video-${1|container,fluid|}",
+    "description": "视频样式"
+  },
+  // Helper 辅助类
+  "mdui-margin-padding": {
+    "prefix": [
+      "margin",
+      "padding"
+    ],
+    "body": "mdui-${1|m,p|}-${2|t,b,l,r,x,y,a|}-${3|0,1,2,3,4,5|}",
+    "description": "边距设置"
+  },
+  "mdui-float": {
+    "prefix": "float",
+    "body": "mdui-float-${1|left,right|}",
+    "description": "快速浮动"
+  },
+  "mdui-center": {
+    "prefix": "center",
+    "body": "mdui-center",
+    "description": "水平居中"
+  },
+  "mdui-valign": {
+    "prefix": "valign",
+    "body": "mdui-valign",
+    "description": "垂直居中"
+  },
+  "mdui-text": {
+    "prefix": "text",
+    "body": "mdui-text-${1|left,right,center|}",
+    "description": "水平对齐方式"
+  },
+  "mdui-text-lowercase": {
+    "prefix": "lowercase",
+    "body": "mdui-text-lowercase",
+    "description": "文本转小写"
+  },
+  "mdui-text-uppercase": {
+    "prefix": "uppercase",
+    "body": "mdui-text-uppercase",
+    "description": "文本转大写"
+  },
+  "mdui-text-capitalize": {
+    "prefix": "capitalize",
+    "body": "mdui-text-capitalize",
+    "description": "文本首字母大写"
+  },
+  "mdui-text-truncate": {
+    "prefix": "truncate",
+    "body": "mdui-text-truncate",
+    "description": "文本自动截断"
+  },
+  "mdui-clearfix": {
+    "prefix": "clearfix",
+    "body": "mdui-clearfix",
+    "description": "清除浮动"
+  },
+  "mdui-hidden": {
+    "prefix": [
+      "mdui-hidden",
+      "hidden"
+    ],
+    "body": "mdui-hidden",
+    "description": "隐藏内容（不占据页面空间）"
+  },
+  "mdui-invisible": {
+    "prefix": [
+      "mdui-invisible",
+      "invisible"
+    ],
+    "body": "mdui-invisible",
+    "description": "隐藏内容（占据页面空间）"
+  },
+  "mdui-responsiveness": {
+    "prefix": [
+      "response",
+      "reaponsiveness"
+    ],
+    "body": "mdui-hidden-${1|xs,sm,md,lg,xl|}${2|-up,-down|}",
+    "description": "响应式隐藏内容"
+  },
+  // Shadow 阴影
+  "mdui-shadow": {
+    "prefix": [
+      "mdui-shadow",
+      "shadow"
+    ],
+    "body": "mdui-shadow-${1|0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24|}",
+    "description": "设置阴影"
+  },
+  "mdui-hoverable": {
+    "prefix": [
+      "mdui-hoverable",
+      "hoverable"
+    ],
+    "body": "mdui-hoverable",
+    "description": "设置鼠标悬浮阴影"
+  }
+}

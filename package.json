@@ -1,0 +1,25 @@
+{
+  "name": "mdui-snippets",
+  "displayName": "MDUI Snippets",
+  "author": {
+    "name": "bingling_sama",
+    "email": "bingling_sama@qq.com",
+    "url": "https://www.booling.cn/"
+  },
+  "description": "A VSCode Plugin provided auto completion for MDUI",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/style-snippets.code-snippets"
+      }
+    ]
+  }
+}
