@@ -5,7 +5,7 @@ A VSCode plugin provided snippets for MDUI
 ## Features
 
 - [x] MDUI Style
-- [ ] MDUI Components
+- [x] MDUI Components
 - [ ] MDUI JavaScript 
 
 ## Known Issues
@@ -14,3 +14,6 @@ A VSCode plugin provided snippets for MDUI
 
 ### 0.0.1
 MDUI Style auto compeletion.
+
+### 0.0.2
+MDUI Components auto completion.

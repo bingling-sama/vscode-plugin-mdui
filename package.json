@@ -12,7 +12,7 @@
   },
   "publisher": "bingling-sama",
   "description": "A VSCode Plugin provided auto completion for MDUI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
