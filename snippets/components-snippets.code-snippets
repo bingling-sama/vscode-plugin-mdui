@@ -1,0 +1,279 @@
+{
+  "mdui-ripple": {
+    "prefix": [
+      "mdui-ripple",
+      "ripple"
+    ],
+    "body": "mdui-ripple",
+    "description": "涟漪效果"
+  },
+  "mdui-ripple-color": {
+    "prefix": [
+      "mdui-ripple",
+      "ripple"
+    ],
+    "body": "mdui-ripple-${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,grey,blue-grey|}",
+    "description": "设置涟漪颜色"
+  },
+  "mdui-button": {
+    "prefix": [
+      "mdui-btn",
+      "button"
+    ],
+    "body": "mdui-btn${1|-raise,-icon,-block,-group,-active|}",
+    "description": "按钮组件"
+  },
+  "mdui-fab": {
+    "prefix": [
+      "mdui-fab",
+      "fab"
+    ],
+    "body": "mdui-fab${1|-mini,-hide,-fixed,-warpper,-opened,-dial|}",
+    "description": "浮动按钮组件"
+  },
+  "mdui-select": {
+    "prefix": [
+      "mdui-select",
+      "select"
+    ],
+    "body": "mdui-select",
+    "description": "下拉选择"
+  },
+  "mdui-divider": {
+    "prefix": [
+      "mdui-divider",
+      "divider"
+    ],
+    "body": "mdui-divider${1:-inset}${2|-light,-dark|}",
+    "description": "分隔线"
+  },
+  "mdui-panel": {
+    "prefix": [
+      "mdui-panel",
+      "panel"
+    ],
+    "body": "mdui-panel${1|-gapless,-popout|}",
+    "description": "可扩展面板"
+  },
+  "mdui-panel-item": {
+    "prefix": [
+      "mdui-panel-item",
+      "panel-item"
+    ],
+    "body": "mdui-panel-item${1|-open,-header,-title,-summary,-arrow,-body,-actions|}",
+    "description": "可扩展面板子项"
+  },
+  "mdui-textfield": {
+    "prefix": [
+      "mdui-textfield",
+      "textfield"
+    ],
+    "body": "mdui-textfield${1|-float-label,-label,-input,-error,-helper|}",
+    "description": "文本框"
+  },
+  "mdui-checkbox": {
+    "prefix": [
+      "mdui-checkbox",
+      "checkbox"
+    ],
+    "body": "mdui-checkbox${1:-icon}",
+    "description": "复选框"
+  },
+  "mdui-radio": {
+    "prefix": [
+      "mdui-radio",
+      "radio"
+    ],
+    "body": "mdui-radio${1:-icon}",
+    "description": "单选框"
+  },
+  "mdui-switch": {
+    "prefix": [
+      "mdui-switch",
+      "switch"
+    ],
+    "body": "mdui-switch${1:-icon}",
+    "description": "开关"
+  },
+  "mdui-slider": {
+    "prefix": [
+      "mdui-slider",
+      "slider"
+    ],
+    "body": "mdui-slider${1:-discrete}",
+    "description": "滑块"
+  },
+  "mdui-list": {
+    "prefix": [
+      "mdui-list",
+      "list"
+    ],
+    "body": "mdui-list${1:-dense}",
+    "description": "列表"
+  },
+  "mdui-list-item": {
+    "prefix": [
+      "mdui-list-item",
+      "list-item"
+    ],
+    "body": "mdui-item${1|-active,-icon,-avatar,-content,-title,-text,-oneline,-twoline,-threeline|}",
+    "description": "列表条目"
+  },
+  "mdui-grid-list": {
+    "prefix": [
+      "mdui-grid-list",
+      "grid-list"
+    ],
+    "body": "mdui-grid-list",
+    "description": "网格列表"
+  },
+  "mdui-grid-tile": {
+    "prefix": [
+      "mdui-grid-tile",
+      "grid-tile"
+    ],
+    "body": "mdui-grid-tile",
+    "description": "网格列表子项"
+  },
+  "mdui-grid-tile-actions": {
+    "prefix": [
+      "mdui-grid-tile-actions",
+      "grid-tile-actions"
+    ],
+    "body": "mdui-grid-tile-actions${1|-top,-transparent,-gradient|}",
+    "description": "网格列表操作项"
+  },
+  "mdui-grid-tile-item": {
+    "prefix": "mdui-grid-tile",
+    "body": "mdui-grid-tile-${1|text,title,subtitle,buttons|}",
+    "description": "网格列表文本项"
+  },
+  "mdui-tab": {
+    "prefix": [
+      "mdui-tab",
+      "tab"
+    ],
+    "body": "mdui-tab${1|-scroolable,-centered,-full-width,-active|}",
+    "description": "Tab 选项卡"
+  },
+  "mdui-toolbar": {
+    "prefix": [
+      "mdui-toolbar",
+      "toolbar"
+    ],
+    "body": "mdui-toolbar${1:-spacer}",
+    "description": "工具栏"
+  },
+  "mdui-appbar": {
+    "prefix": [
+      "mdui-appbar",
+      "appbar"
+    ],
+    "body": "mdui-appbar${1|-fixed,-with-toolbar,-with-tab,-with-tab-larger,-scoll-hide,-scroll-toolbar-hide|}",
+    "description": "应用栏"
+  },
+  "mdui-drawer": {
+    "prefix": [
+      "mdui-drawer",
+      "drawer"
+    ],
+    "body": "mdui-drawer${1|-right,-full-height,-open,-close,-body-left,-body-right|}",
+    "description": "抽屉式导航"
+  },
+  "mdui-bottom-nav": {
+    "prefix": [
+      "mdui-bottom-nav",
+      "bottom-nav"
+    ],
+    "body": "mdui-nav${1|-active,-text-auto,-fixed,-scroll-hide|}",
+    "description": "底部导航栏"
+  },
+  "mdui-card": {
+    "prefix": [
+      "mdui-card",
+      "card"
+    ],
+    "body": "mdui-card${1|-menu,-content,-actions,-actions-stacked|}",
+    "description": "卡片"
+  },
+  "mdui-card-header": {
+    "prefix": [
+      "mdui-card-header",
+      "card-header"
+    ],
+    "body": "mdui-card-header${1|-avatar,-title,-subtitle|}",
+    "description": "卡片头"
+  },
+  "mdui-card-media": {
+    "prefix": [
+      "mdui-card-media",
+      "card-media"
+    ],
+    "body": "mdui-card-media${1|-covered,-covered-top,-covered-transparent,-covered-gradient|}",
+    "description": "卡片媒体"
+  },
+  "mdui-card-primary": {
+    "prefix": [
+      "mdui-card-primary",
+      "card-primary"
+    ],
+    "body": "mdui-card-primary${1|-title,-subtitle|}",
+    "description": "卡片标题"
+  },
+  "mdui-chip": {
+    "prefix": [
+      "mdui-chip",
+      "chip"
+    ],
+    "body": "mdui-chip${1|-title,-icon,-delete|}",
+    "description": "纸片"
+  },
+  "mdui-table": {
+    "prefix": [
+      "mdui-table",
+      "table"
+    ],
+    "body": "mdui-table${1|-fluid,-hoverable,-col-numeric,-selectable,-row-selected|}",
+    "description": "表格"
+  },
+  "mdui-dialog": {
+    "prefix": [
+      "mdui-dialog",
+      "dialog"
+    ],
+    "body": "mdui-dialog${1|-title,-content,-actions,-actions-stacked|}",
+    "description": "对话框"
+  },
+  "mdui-menu": {
+    "prefix": [
+      "mdui-menu",
+      "menu"
+    ],
+    "body": "mdui-menu${1:-cascade}",
+    "description": "菜单"
+  },
+  "mdui-menu-item": {
+    "prefix": [
+      "mdui-menu-item",
+      "menu-item"
+    ],
+    "body": "mdui-menu-item${1|-icon,-helper,-more|}",
+    "description": "菜单"
+  },
+  "mdui-progress": {
+    "prefix": [
+      "mdui-progress",
+      "progress"
+    ],
+    "body": "mdui-progress${1|-indeterminate,-determinate|}",
+    "description": "进度指示器"
+  },
+  "mdui-spinner": {
+    "prefix": [
+      "mdui-spinner",
+      "spinner"
+    ],
+    "body": "mdui-spinner${1:-colorful}",
+    "description": "圆形进度指示器"
+  }
+}

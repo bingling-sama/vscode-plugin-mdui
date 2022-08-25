@@ -30,7 +30,7 @@
       "color"
     ],
     "body": "mdui-color-${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,grey,blue-grey|}${2:-accent}${3|-50,-100,-200,-300,-400,-500,-600,-700,-800,-900,-a100,-a200,-a400,-a700|}",
-    "description": "设置背景色"
+    "description": "设置背景色（-accent 强调色）"
   },
   "mdui-color-theme": {
     "prefix": [
